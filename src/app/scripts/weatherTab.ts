@@ -44,7 +44,7 @@ export class weatherTab {
             const ipUrl = httpsCorsWrapper + "http://ip-api.com/json";
             const openWeatherAPIKey = "3979865d03301e5cf1887b80c64c2f9f";
             var openWeatherUrl = httpsCorsWrapper + `http://api.openweathermap.org/data/2.5/weather?appid=${openWeatherAPIKey}&units=imperial&`;
-            const bingMapsAPIKey = "AhxX0G46a9kuxNIXI6YxGgh8w7aZdx4mAHkkVbYS5kQ_eNmxMKa8qYtBGvYv3Ohf";
+            const bingMapsAPIKey = "";
             var bingMapsUrl: string;
             var weatherLoc = <mapLocation>{};
             $(document).ready(() => {
